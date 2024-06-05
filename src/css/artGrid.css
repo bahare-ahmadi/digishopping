@@ -1,0 +1,119 @@
+.art-grid {
+    width: 100%;
+    height: 413px;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+
+    .art-grid-sub {
+        width: 100%;
+        height: inherit;
+        /* background-color: aquamarine; */
+      
+
+        .art-grid-sub-header {
+            width: 100%;
+            height: 70px;
+            /* background-color: bisque; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            span {
+                font-size: 28px;
+                font-weight: bold;
+                margin-left: 8px;
+            }
+
+            svg {
+                fill: #f9a825;
+            }
+        }
+
+        .art-grid-sub-main {
+            width: 100%;
+            height: 340px;
+
+            .swiper {
+                width: 100%;
+                height: 100%;
+            }
+
+            .swiper-slide {
+                text-align: center;
+                font-size: 18px;
+                background: #fff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-flow: column;
+                margin: 10px;
+
+                .art-grid-sub-main-product {
+                    width: 100%;
+                    height: 33.3%;
+                    /* background-color: rgb(86, 94, 75); */
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    .art-grid-sub-main-pic {
+                        width: 86px;
+                        height: 86px;
+
+                        img {
+                            width: 80px;
+                            height: 80px;
+                            object-fit: cover;
+                        }
+
+                    }
+
+                    .art-grid-sub-main-number {
+                        width: fit-content;
+
+                        span {
+                            color: aqua;
+                            font-size: 30px;
+
+                        }
+                    }
+
+                    .art-grid-sub-main-txt {
+                        width: 70%;
+
+                        span {
+                            font-size: 12px;
+                            display: block;
+                            overflow: hidden;
+                            white-space: nowrap;
+                            text-overflow: ellipsis;
+                            padding-left: 8px;
+                        }
+                    }
+                }
+            }
+
+            .swiper-slide img {
+                display: block;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .art-grid {
+
+
+        .art-grid-sub {
+            border: 1px solid lightgray;
+            border-radius: 10px;
+            
+        }
+    }
+}

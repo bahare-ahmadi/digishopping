@@ -1,0 +1,124 @@
+.shopping {
+
+    .shopping-header {
+        margin: 0px auto;
+        width: fit-content;
+        font-size: 14px;
+    }
+
+    .shopping-items {
+        width: 100%;
+        /* height: 350px; */
+        margin: 50px 0px;
+        /* background-color: aquamarine; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row;
+
+        .swiper-shopping-sub {
+            width: 100%;
+            /* height: inherit; */
+            /* background-color: aqua; */
+
+            .swiper {
+                width: 100%;
+                height: 100%;
+                margin-left: auto;
+                margin-right: auto;
+
+                .swiper-wrapper {
+                    flex-flow: row wrap;
+
+
+                }
+
+                .swiper-slide {
+                    text-align: center;
+                    font-size: 18px;
+                    height: calc((100% - 30px) / 2) !important;
+
+                    /* Center slide text vertically */
+                    display: flex;
+                    flex-flow: column;
+                    row-gap: 20px;
+                    justify-content: center;
+                    align-items: center;
+
+
+                    img {
+                        background: #fff;
+                        border-radius: 50%;
+                        width: 90px !important;
+                        height: 90px !important;
+                    }
+
+                }
+            }
+
+            .description {
+                font-size: 11px !important;
+                text-transform: capitalize;
+                width: fit-content;
+                font-weight: bold;
+
+                /* margin: 20px 20px 20px 20px; */
+                text-align: center;
+                /* vertical-align: middle; */
+            }
+
+
+
+
+        }
+
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .shopping {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-flow: column;
+        align-items: center;
+
+        .shopping-sub {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            flex-flow: column;
+            align-items: center;
+        }
+
+        .shopping-header {
+
+            font-size: 18px;
+        }
+
+        .shopping-items {
+            width: 90%;
+            height: 350px;
+            margin: 10px 0px;
+            display: flex;
+            justify-content: center;
+
+            .swiper-shopping-sub {
+
+                height: inherit;
+
+                .swiper {
+                    .swiper-slide {
+                        /* max-width: 143px; */
+                    }
+                }
+
+                .description {
+                    font-size: 13px !important;
+                }
+            }
+
+        }
+
+    }
+}

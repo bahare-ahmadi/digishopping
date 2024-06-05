@@ -1,0 +1,248 @@
+.subamazing {
+    /* width: 100%; */
+    /* height: 117px; */
+    /* background-color: yellow; */
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+
+    .subamazing-main {
+        height: 187px;
+        background-color: #b5e3b5;
+        display: flex;
+        flex-flow: column;
+        align-items: start;
+        border-radius: 10px;
+        box-shadow: 3px 3px 10px rgb(246, 241, 241);
+        margin: 5px;
+        padding: 5px;
+
+    }
+
+
+
+    /* TODO: remove width */
+    .subamazing-left {
+        width: 100%;
+        height: 117px;
+        height: inherit;
+        /* background-color: yellowgreen; */
+        display: flex;
+        flex-flow: column;
+        align-items: start;
+        /* justify-content: center; */
+
+        .subamazing-pic {
+            display: flex;
+            align-items: center;
+
+            img.basket {
+                width: 50px;
+                height: 50px;
+            }
+
+            .deals {
+                width: 150px;
+
+            }
+
+
+        }
+
+        .subamazing-text {
+            /* width: 100px; */
+            /* height: 25px; */
+            border-radius: 15px;
+            background-color: #029a49;
+            font-size: 11px;
+            color: white;
+            font-weight: bold;
+            padding: 5px 15px;
+
+        }
+
+
+    }
+
+    .subamazing-right {
+        width: 100%;
+        height: 117px;
+        /* 
+        background-color: violet; */
+        display: flex;
+        justify-content: space-between;
+        flex-flow: row;
+        align-items: center;
+
+        .product-child-wrapper {
+            display: flex;
+            justify-content: center;
+            flex-flow: row;
+            align-items: center;
+            column-gap: 10px;
+
+
+            .product-child {
+
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                column-gap: 10px;
+                /* background-color: red; */
+
+                .product-img {
+                    width: 75px;
+                    height: 75px;
+                    border-radius: 50%;
+
+                }
+            }
+
+        }
+
+        .product-child-sub {
+            /* width: 190px; */
+            /* height: 35px; */
+            background-color: whitesmoke;
+            border-radius: 50%;
+            display: flex;
+            justify-content: space-around;
+            flex-flow: row;
+            column-gap: 5px;
+            padding: 5px;
+
+            svg {
+                transform: rotate(180deg);
+                padding: 5px;
+            }
+
+            .svg-arrow {
+                display: flex;
+                flex-flow: row nowrap;
+                /* margin-top: 5px; */
+                text-decoration: none;
+                color: #39ae00;
+                fill: #39ae00
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .subamazing {
+        width: 100%;
+        height: 117px;
+        /* background-color: yellow; */
+        margin-bottom: 50px;
+        display: flex;
+        justify-content: center;
+
+        .subamazing-main {
+            height: 117px;
+            background-color: #eff0f0;
+            display: flex;
+            flex-flow: row;
+            align-items: center;
+            border-radius: 10px;
+            box-shadow: 3px 3px 10px rgb(246, 241, 241);
+
+        }
+
+        .subamazing-left {
+            width: 100%;
+            height: 117px;
+            height: inherit;
+            /* background-color: yellowgreen; */
+            display: flex;
+            flex-flow: row nowrap;
+            align-items: center;
+            justify-content: space-between;
+
+            .subamazing-pic {
+
+                img.basket {
+                    width: 75px;
+                    height: 75px;
+                }
+
+                .deals {
+                    width: 200px;
+
+                }
+
+            }
+
+            .subamazing-text {
+
+                border-radius: 15px;
+                background-color: #029a49;
+                font-size: 13px;
+                color: white;
+                font-weight: bold;
+
+
+            }
+
+
+        }
+
+        .subamazing-right {
+            /* width: 60%;
+            height: 117px; */
+            /* 
+        background-color: violet; */
+            display: flex;
+            justify-content: center;
+            flex-flow: row;
+            align-items: center;
+
+            .product-child {
+                width: 100px;
+                height: 100px;
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                column-gap: 10px;
+                /* background-color: red; */
+
+                .product-img {
+                    width: 75px;
+                    height: 75px;
+                    border-radius: 50%;
+
+                }
+
+            }
+
+            .product-child-sub {
+                width: 190px;
+                /* height: 35px; */
+                background-color: whitesmoke;
+                border-radius: 20px;
+                display: flex;
+                justify-content: space-around;
+                flex-flow: row;
+                column-gap: 5px;
+                padding: 5px;
+                font-size: 14px;
+                font-weight: bold;
+
+                svg {
+                    transform: rotate(180deg);
+                    padding: 5px;
+                }
+
+                .svg-arrow {
+                    display: flex;
+                    flex-flow: row nowrap;
+                    margin-top: 5px;
+                    text-decoration: none;
+                    color: #39ae00;
+                    fill: #39ae00
+                }
+            }
+        }
+    }
+}

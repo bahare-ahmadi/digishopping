@@ -1,0 +1,26 @@
+.d-flex-desktop {
+    display: none !important;
+}
+
+.d-block-desktop {
+    display: none !important;
+}
+
+.container {
+    width: 100%;
+    max-width: 1336px;
+}
+
+@media only screen and (min-width: 768px) {
+    .d-flex-desktop {
+        display: flex !important;
+    }
+
+    .d-block-desktop {
+        display: block !important;
+    }
+
+    .d-none-desktop {
+        display: none !important;
+    }
+}

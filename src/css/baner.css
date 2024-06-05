@@ -1,0 +1,55 @@
+.baner {
+    width: 100%;
+    /* height: 280px; */
+    /* background-color: aqua; */
+    margin-top: 50px;
+    margin-bottom: -40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .sub-baner {
+        width: 90%;
+      
+        /* background-color: red; */
+        display: flex;
+        justify-content: center;
+        column-gap: 10px;
+        flex-flow: column;
+
+        .sub-baner-child {
+            width: 100%;
+            height: inherit;
+            /* background-color: beige; */
+            border-radius: 10px;
+        }
+
+        .sub-baner-pic {
+            width: 100%;
+            height: 168px;
+            object-fit: cover;
+            object-position: right top;
+            border:1px solid rgb(241, 238, 238);
+            border-radius: 10px;
+            box-shadow: 3px 3px 10px rgb(246, 241, 241);
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .baner {
+        margin-top: 20px;
+        height: 280px;
+        /* background-color: aqua; */
+        margin-bottom: 40px;
+    
+        .sub-baner {
+         
+            flex-flow: row;
+            .sub-baner-child{
+                .sub-baner-pic{
+                    height:275px;
+                }
+            }
+        }
+}}

@@ -1,0 +1,72 @@
+@import "./setting.css";
+@import "./font.css";
+@import "./responsive.css";
+
+
+.login {
+
+    display: flex;
+    justify-content: center;
+
+    .login-main {
+
+        width: 400px;
+        box-sizing: border-box;
+
+        border-radius: 10px;
+        padding: 32px;
+        display: flex;
+        flex-flow: column;
+        row-gap: 40px;
+
+        .login-main-row {
+            display: flex;
+
+            justify-content: flex-start;
+
+
+            &.center {
+                display: block;
+                text-align: center;
+                margin-top: 10px;
+            }
+
+            >p {
+                font-size: 13px;
+                color: gray;
+
+                &.footer-size {
+                    font-size: 11px;
+                }
+            }
+
+            >input {
+                width: 100%;
+
+                border-radius: 5px;
+                border: 1px solid #19bfd3;
+                padding: 15px;
+                color: rgb(109, 109, 109);
+
+                &.click {
+                    border: 1px solid #d32f2f;
+                    background-color: #ef4056;
+                    font-weight: bold;
+                    color: whitesmoke;
+                }
+            }
+        }
+
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .login {
+
+
+        .login-main {
+            margin-bottom: 50px;
+            border: 1px solid rgb(157, 151, 152);
+        }
+    }
+}
