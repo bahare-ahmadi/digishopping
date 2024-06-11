@@ -1,0 +1,283 @@
+<!-- special amazing -->
+<div class="special-amazing">
+    <div class="special-amazing-header">
+        <svg style="width: 24px; height: 24px;">
+            <path fill-rule="evenodd"
+                d="M2.585 15.384a1 1 0 111.882-.677A8.003 8.003 0 0011.997 20a8 8 0 100-16 1 1 0 110-2c5.523 0 10 4.477 10 10s-4.477 10-10 10a10.003 10.003 0 01-9.412-6.616zM8.662 2.57a1 1 0 11.667 1.885 7.95 7.95 0 00-1.114.494 1 1 0 11-.947-1.762 9.95 9.95 0 011.394-.617zM5.804 5.39a1 1 0 00-1.41.11 9.95 9.95 0 00-.899 1.232 1 1 0 101.701 1.052 7.95 7.95 0 01.718-.984 1 1 0 00-.11-1.41zm-3.64 4.783a1 1 0 011.966.365A7.95 7.95 0 004 11.75a1 1 0 01-2-.06c.016-.51.07-1.016.163-1.517zM12.996 12V6h-2v5.307l-3.35 1.257.702 1.872 4-1.5a1 1 0 00.648-.936z"
+                clip-rule="evenodd"></path>
+        </svg>
+        <span>Limited Deals</span>
+    </div>
+    <div class="special-amazing-content">
+        <div class="swiper special-amazing-swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="special-amazing-swiper-header">
+                        <span>Promotion</span>
+                    </div>
+                    <div class="special-amazing-swiper-pic">
+                        <img src=" ./src/image/digital-product2/pic1.png" alt="">
+                    </div>
+                    <div class="special-amazing-swiper-text">
+                        <span>Lorem ipsum dolor sit amet.</span>
+                    </div>
+                    <div class="special-amazing-swiper-price">
+                        <div class="price">€ 99.99</div>
+                        <div class="off">48%</div>
+                    </div>
+                     
+                </div>
+                <div class="swiper-slide">
+                    <div class="special-amazing-swiper-header">
+                        <span>Promotion</span>
+                    </div>
+                    <div class="special-amazing-swiper-pic">
+                        <img src=" ./src/image/digital-product2/pic2.png" alt="">
+                    </div>
+                    <div class="special-amazing-swiper-text">
+                        <span>Lorem  dolor sit amet.</span>
+                    </div>
+                    <div class="special-amazing-swiper-price">
+                        <div class="price">€ 929.99</div>
+                        <div class="off">34%</div>
+                    </div>
+                   
+                </div>
+                 <div class="swiper-slide">
+                    <div class="special-amazing-swiper-header">
+                        <span>Promotion</span>
+                    </div>
+                    <div class="special-amazing-swiper-pic">
+                        <img src=" ./src/image/digital-product2/pic3.png" alt="">
+                    </div>
+                    <div class="special-amazing-swiper-text">
+                        <span>Lorem ipsum dol amet.</span>
+                    </div>
+                    <div class="special-amazing-swiper-price">
+                        <div class="price">€ 46.99</div>
+                        <div class="off">56%</div>
+                    </div>
+                     
+                </div>
+                <div class="swiper-slide">
+                    <div class="special-amazing-swiper-header">
+                        <span>Promotion</span>
+                    </div>
+                    <div class="special-amazing-swiper-pic">
+                        <img src=" ./src/image/digital-product2/pic14.png" alt="">
+                    </div>
+                    <div class="special-amazing-swiper-text">
+                        <span>Lorem olor sit amet.</span>
+                    </div>
+                    <div class="special-amazing-swiper-price">
+                        <div class="price">€ 69.99</div>
+                        <div class="off">78%</div>
+                    </div>
+                
+                </div> <div class="swiper-slide">
+                    <div class="special-amazing-swiper-header">
+                        <span>Promotion</span>
+                    </div>
+                    <div class="special-amazing-swiper-pic">
+                        <img src=" ./src/image/digital-product2/pic12.png" alt="">
+                    </div>
+                    <div class="special-amazing-swiper-text">
+                        <span>Lorem ipsum dolor sit amet.</span>
+                    </div>
+                    <div class="special-amazing-swiper-price">
+                        <div class="price">€ 67.99</div>
+                        <div class="off">23%</div>
+                    </div>
+                    
+                </div> <div class="swiper-slide">
+                    <div class="special-amazing-swiper-header">
+                        <span>Promotion</span>
+                    </div>
+                    <div class="special-amazing-swiper-pic">
+                        <img src=" ./src/image/digital-product2/pic11.png" alt="">
+                    </div>
+                    <div class="special-amazing-swiper-text">
+                        <span>Lorem ipsum dolor sit amet.</span>
+                    </div>
+                    <div class="special-amazing-swiper-price">
+                        <div class="price">€ 134.99</div>
+                        <div class="off">65%</div>
+                    </div>
+                     
+                </div> <div class="swiper-slide">
+                    <div class="special-amazing-swiper-header">
+                        <span>Promotion</span>
+                    </div>
+                    <div class="special-amazing-swiper-pic">
+                        <img src=" ./src/image/digital-product2/pic5.png" alt="">
+                    </div>
+                    <div class="special-amazing-swiper-text">
+                        <span>Lorem ipsum dolor sit amet.</span>
+                    </div>
+                    <div class="special-amazing-swiper-price">
+                        <div class="price">€ 99.99</div>
+                        <div class="off">48%</div>
+                    </div>
+                     
+                </div> <div class="swiper-slide">
+                    <div class="special-amazing-swiper-header">
+                        <span>Promotion</span>
+                    </div>
+                    <div class="special-amazing-swiper-pic">
+                        <img src=" ./src/image/digital-product2/pic6.png" alt="">
+                    </div>
+                    <div class="special-amazing-swiper-text">
+                        <span>Lorem ipsum dolor sit amet.</span>
+                    </div>
+                    <div class="special-amazing-swiper-price">
+                        <div class="price">€ 99.99</div>
+                        <div class="off">48%</div>
+                    </div>
+                     
+                </div> <div class="swiper-slide">
+                    <div class="special-amazing-swiper-header">
+                        <span>Promotion</span>
+                    </div>
+                    <div class="special-amazing-swiper-pic">
+                        <img src=" ./src/image/digital-product2/pic7.png" alt="">
+                    </div>
+                    <div class="special-amazing-swiper-text">
+                        <span>Lorem ipsum dolor sit amet.</span>
+                    </div>
+                    <div class="special-amazing-swiper-price">
+                        <div class="price">€ 99.99</div>
+                        <div class="off">48%</div>
+                    </div>
+                     
+                </div> <div class="swiper-slide">
+                    <div class="special-amazing-swiper-header">
+                        <span>Promotion</span>
+                    </div>
+                    <div class="special-amazing-swiper-pic">
+                        <img src=" ./src/image/digital-product2/pic8.png" alt="">
+                    </div>
+                    <div class="special-amazing-swiper-text">
+                        <span>Lorem ipsum dolor sit amet.</span>
+                    </div>
+                    <div class="special-amazing-swiper-price">
+                        <div class="price">€ 99.99</div>
+                        <div class="off">48%</div>
+                    </div>
+                     
+                </div> <div class="swiper-slide">
+                    <div class="special-amazing-swiper-header">
+                        <span>Promotion</span>
+                    </div>
+                    <div class="special-amazing-swiper-pic">
+                        <img src=" ./src/image/digital-product2/pic9.png" alt="">
+                    </div>
+                    <div class="special-amazing-swiper-text">
+                        <span>Lorem ipsum dolor sit amet.</span>
+                    </div>
+                    <div class="special-amazing-swiper-price">
+                        <div class="price">€ 99.99</div>
+                        <div class="off">48%</div>
+                    </div>
+                     
+                </div>
+                 <div class="swiper-slide">
+                    <div class="special-amazing-swiper-header">
+                        <span>Promotion</span>
+                    </div>
+                    <div class="special-amazing-swiper-pic">
+                        <img src=" ./src/image/digital-product2/pic10.png" alt="">
+                    </div>
+                    <div class="special-amazing-swiper-text">
+                        <span>Lorem ipsum dolor sit amet.</span>
+                    </div>
+                    <div class="special-amazing-swiper-price">
+                        <div class="price">€ 99.99</div>
+                        <div class="off">48%</div>
+                    </div>
+                     
+                </div>
+                
+                <div class="swiper-slide">
+                    <div class="special-amazing-swiper-header">
+                        <span>Promotion</span>
+                    </div>
+                    <div class="special-amazing-swiper-pic">
+                        <img src=" ./src/image/digital-product2/pic13.png" alt="">
+                    </div>
+                    <div class="special-amazing-swiper-text">
+                        <span>Lorem ipsum  sit amet.</span>
+                    </div>
+                    <div class="special-amazing-swiper-price">
+                        <div class="price">€ 929.99</div>
+                        <div class="off">48%</div>
+                    </div>
+                
+                </div> <div class="swiper-slide">
+                    <div class="special-amazing-swiper-header">
+                        <span>Promotion</span>
+                    </div>
+                    <div class="special-amazing-swiper-pic">
+                        <img src=" ./src/image/digital-product2/pic14.png" alt="">
+                    </div>
+                    <div class="special-amazing-swiper-text">
+                        <span>Lorem im dolor sit amet.</span>
+                    </div>
+                    <div class="special-amazing-swiper-price">
+                        <div class="price">€ 9.99</div>
+                        <div class="off">28%</div>
+                    </div>
+                  
+                </div> <div class="swiper-slide">
+                    <div class="special-amazing-swiper-header">
+                        <span>Promotion</span>
+                    </div>
+                    <div class="special-amazing-swiper-pic">
+                        <img src=" ./src/image/digital-product2/pic15.png" alt="">
+                    </div>
+                    <div class="special-amazing-swiper-text">
+                        <span>Lorem ipsum dolor sit amet.</span>
+                    </div>
+                    <div class="special-amazing-swiper-price">
+                        <div class="price">€ 99.99</div>
+                        <div class="off">48%</div>
+                    </div>
+                     
+                </div> <div class="swiper-slide">
+                    <div class="special-amazing-swiper-header">
+                        <span>Promotion</span>
+                    </div>
+                    <div class="special-amazing-swiper-pic">
+                        <img src=" ./src/image/digital-product2/pic16.png" alt="">
+                    </div>
+                    <div class="special-amazing-swiper-text">
+                        <span>Lorem ipsum dolor sit amet.</span>
+                    </div>
+                    <div class="special-amazing-swiper-price">
+                        <div class="price">€ 99.99</div>
+                        <div class="off">48%</div>
+                    </div>
+                     
+                </div> <div class="swiper-slide">
+                    <div class="special-amazing-swiper-header">
+                        <span>Promotion</span>
+                    </div>
+                    <div class="special-amazing-swiper-pic">
+                        <img src=" ./src/image/digital-product2/pic17.png" alt="">
+                    </div>
+                    <div class="special-amazing-swiper-text">
+                        <span>Lorem ipsum dolor sit amet.</span>
+                    </div>
+                    <div class="special-amazing-swiper-price">
+                        <div class="price">€ 99.99</div>
+                        <div class="off">48%</div>
+                    </div>
+                     
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Swiper JS -->
+    </div>
+</div>
+<!-- special amazing -->

@@ -186,3 +186,54 @@ var swiper = new Swiper(".swiperSelection", {
     },
   },
 });
+var swiper = new Swiper(".ending-amazing-swiper", {
+  slidesPerView: 7,
+  spaceBetween: 1,
+// Responsive breakpoints
+breakpoints: {
+  // when window width is >= 320px
+  320: {
+    slidesPerView: 3.5,
+    spaceBetween: 1,
+  },
+  // when window width is >= 480px
+  480: {
+    slidesPerView: 5.2,
+    spaceBetween: 1,
+  },
+  // when window width is >= 640px
+  640: {
+    slidesPerView: 7,
+    spaceBetween: 2,
+  },
+}, // end breakpoints
+});
+var swiper = new Swiper(".special-amazing-swiper", {
+  slidesPerView: 7,
+  spaceBetween: 1,
+// Responsive breakpoints
+breakpoints: {
+  // when window width is >= 320px
+  320: {
+    slidesPerView: 3.5,
+    spaceBetween: 1,
+  },
+  // when window width is >= 480px
+  480: {
+    slidesPerView: 5.2,
+    spaceBetween: 1,
+  },
+  // when window width is >= 640px
+  640: {
+    slidesPerView: 7,
+    spaceBetween: 2,
+  },
+}, // end breakpoints
+});
+
+
+var swiper = new Swiper(".swiper-mobile-menu", {
+  slidesPerView: 4.8,
+  spaceBetween: 2,
+
+});

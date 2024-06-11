@@ -10,6 +10,10 @@
     width: 100%;
     max-width: 1336px;
 }
+.container-xl {
+    width: 100%;
+    max-width: 1676px;
+}
 
 @media only screen and (min-width: 768px) {
     .d-flex-desktop {

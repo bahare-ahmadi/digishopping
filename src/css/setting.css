@@ -5,10 +5,12 @@
 
 }
 
-a:visited {
+a:visited ,a:-webkit-any-link{
     color: inherit;
 }
-
-/* body{
+ 
+body {
+    position: relative;
     overflow-x: hidden;
-} */
+    text-transform: capitalize;
+}
