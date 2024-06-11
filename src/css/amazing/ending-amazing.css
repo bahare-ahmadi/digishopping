@@ -133,7 +133,7 @@
 
         .ending-amazing-main {
             margin: 0 auto;
-
+border: 1px solid rgb(229, 229, 229);
             .ending-amazing-header {
                 font-size: 26px;
             }

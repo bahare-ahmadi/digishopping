@@ -9,7 +9,7 @@
         display: flex;
         justify-content: center;
         flex-flow: column;
-       
+
         border-radius: 10px;
 
 
@@ -136,6 +136,8 @@
 
         .special-amazing-main {
             margin: 0 auto;
+            border: 1px solid rgb(229, 229, 229);
+
 
             .special-amazing-header {
                 font-size: 26px;
